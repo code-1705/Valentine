@@ -2,7 +2,7 @@ var butsize = 20;
 var maxSize = document.querySelector("body").offsetHeight * 0.8;
 console.log(maxSize);
 function yes(){
-    document.querySelector("h1").innerText = "I love you too";
+    document.querySelector("h1").innerHTML = "I knew you would say yes <br> ❤️❤️❤️❤️";
     document.querySelector(".ans").innerHTML = "";
     document.getElementById("image").src = "hug.gif";
     document.querySelector("body").innerHTML+= `<div class="cracker"><img src="cracker.gif" alt=""></div>`;
